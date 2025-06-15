@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Bm8ijADJ#DfAUpTRo-MX-B5IeoH1tDwGPs1Hjnl0YwTdgG1Dq2gs' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~R30HQCYZ#8vvADzgAQuqiCFjAEHraQ25hwhu7HZEEgjzY2_AjXHM' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -51,7 +51,7 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || "https://www.instagram.com/lsk42.0?igsh=MWNvejl6bW8zMnNleQ=="
 
 //------------------[ WATERMARK ]--------------------//
 
